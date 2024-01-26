@@ -1,0 +1,161 @@
+body {
+    margin:0 auto;
+    float: none;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px; 
+    max-width: 1440px;
+    min-width: 375px;
+    background-color: hsl(226, 43%, 10%);
+    color: white;
+}
+
+.main-body {
+    display: flex;
+    margin: 200px auto;
+}
+
+#row1{
+    display: flex;
+    gap:50px;
+    margin-bottom: 20px;
+}
+
+#row2{
+    display: flex;
+    gap: 50px;
+}
+
+#container-all{
+    margin-left: 50px;
+}
+
+#container-all #row1{
+    padding-bottom:50px;
+}
+
+.time {
+    background-color: hsl(235, 46%, 20%);
+    padding: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: left;
+    width: 250px;   
+}
+
+.time p {
+    color: hsl(236, 100%, 87%);
+}
+
+.container-profile {
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+    height: 300px;
+    text-align: left;
+    padding:20px 30px;
+    margin-bottom: -20px;
+    position: relative;
+}
+
+.container-profile h2 {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.container-profile h1 {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.container-profile img {
+    width: 100px;
+    border: 3px solid hsl(236, 100%, 87%);
+    border-radius: 50%;
+}
+
+.container2 {
+    background-image: url("images/icon-work.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: hsl(15, 100%, 70%);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container-inside {
+    background-color: hsl(235, 46%, 20%);
+    margin-top:50px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title h3 {
+    font-weight: 400;
+}
+
+
+.title img {
+    height: 5px;
+}
+
+.container3 {
+    background-image: url("images/icon-play.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: hsl(195, 74%, 62%);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container4 {
+    background-image: url("images/icon-study.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: hsl(348, 100%, 68%);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container5 {
+    background-image: url("images/icon-exercise.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: hsl(145, 58%, 55%);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container6 {
+    background-image: url("images/icon-social.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: hsl(264, 64%, 52%);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.container7 {
+    background-image: url("images/icon-self-care.svg");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: hsl(43, 84%, 65%);
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.hours {
+    font-size: 45px;
+    margin: 0;
+}
